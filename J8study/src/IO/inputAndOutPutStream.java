@@ -20,11 +20,11 @@ public class inputAndOutPutStream {
 				){
 			 String temp = br.readLine();
 			 while(temp!=null){			 
-			 //Ğ´ÎÄ¼ş
+			 //å†™æ–‡ä»¶
 				 writer.write(temp);
 			  temp = br.readLine();
 			  if(temp == null)break;
-			  writer.write("\n");	  //Ö»ÊÊÓÃWindowsÏµÍ³ ,¼ÌĞø¶ÁÎÄ¼ş 
+			  writer.write("\n");	  //åªé€‚ç”¨Windowsç³»ç»Ÿ ,ç»§ç»­è¯»æ–‡ä»¶ 
 			  } 
 		}
 		// TODO Auto-generated method stub

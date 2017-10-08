@@ -9,7 +9,7 @@ import java.time.LocalTime;
 /**
  * 
  * nio 
- * ��ȡ�ļ���ȡ����[error]���У�д����һ���ļ���
+ * 读取文件，取出带[error]的行，写入另一个文件。
  * @author yy
  *
  */
