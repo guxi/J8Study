@@ -21,8 +21,8 @@ public class filteringApple {
 		for(apple a:redApple) {
 			System.out.println(a);
 		}
-		redApple.forEach(aa->System.out.println(aa));//±í´ïÊ½
-		redApple.forEach(System.out::println);  //·½·¨Ó¦ÓÃ
+		redApple.forEach(aa->System.out.println(aa));//è¡¨è¾¾å¼
+		redApple.forEach(System.out::println);  //æ–¹æ³•åº”ç”¨
 		System.out.println(redApple);   
 		
 		//List<String> app=apple.menu.stream().filter(d->d.getWeight()<130).collect(toList());

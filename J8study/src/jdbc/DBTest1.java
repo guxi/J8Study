@@ -21,11 +21,11 @@ public class DBTest1 {
 				) 
 		{
 			/**
-			 *  1.2.1注册驱动
+			 *  1.2.1娉ㄥ唽椹卞姩
 			 */
 			//Class.forName("com.mysql.jdbc.Driver");
 			/**
-			 *   1.2.2  获取连接(Connection)
+			 *   1.2.2  鑾峰彇杩炴帴(Connection)
 			 */
 			//conn = DriverManager.getConnection(
 			//		"jdbc:mysql://localhost:3306/db_score", "root", "809110");
@@ -33,18 +33,18 @@ public class DBTest1 {
 			//conn = ds.getConnection();
 			//conn=myConn.getConn();
 			/**
-			 *    1.2.3 创建数据库的操作对象
+			 *    1.2.3 鍒涘缓鏁版嵁搴撶殑鎿嶄綔瀵硅薄
 			 */
 			//stmt = conn.createStatement();
 			
 			/**
-			 * 1.2.4 执行SQL语句,获取执行结果(ResultSet)
+			 * 1.2.4 鎵цSQL璇彞,鑾峰彇鎵ц缁撴灉(ResultSet)
 			 */
 					
 			//rs = 
 			
 			/**
-			 * 1.2.5  处理执行结果(ResultSet)
+			 * 1.2.5  澶勭悊鎵ц缁撴灉(ResultSet)
 			 */
 				
 			while (rs.next()) {

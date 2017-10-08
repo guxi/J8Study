@@ -25,7 +25,7 @@ public class getExcel {
 //	public static void main(String[] args) {
 //		InputStream inp;
 //		try {
-//			inp = new FileInputStream("C:\\Course\\ĞÂĞÍÈí¼ş¿ª·¢Ô­ÀíÓë¹¤¾ß£¨±¾¿Æ£©\\Ñ§ÆÚ\\2014-2015(2)\\Æ½Ê±³É¼¨µÇ¼Ç±í.xls");
+//			inp = new FileInputStream("C:\\Course\\æ–°å‹è½¯ä»¶å¼€å‘åŸç†ä¸å·¥å…·ï¼ˆæœ¬ç§‘ï¼‰\\å­¦æœŸ\\2014-2015(2)\\å¹³æ—¶æˆç»©ç™»è®°è¡¨.xls");
 //			System.out.println("11111");
 //		Workbook wb = WorkbookFactory.create(inp);
 //		
@@ -62,7 +62,7 @@ public class getExcel {
 	void getExcelFile()  {
 		InputStream inp;
 		try {
-			inp = new FileInputStream("C:\\\\Course\\\\ĞÂĞÍÈí¼ş¿ª·¢Ô­ÀíÓë¹¤¾ß£¨±¾¿Æ£©\\\\Ñ§ÆÚ\\\\2014-2015(2)\\\\Æ½Ê±³É¼¨µÇ¼Ç±í.xls");
+			inp = new FileInputStream("C:\\\\Course\\\\æ–°å‹è½¯ä»¶å¼€å‘åŸç†ä¸å·¥å…·ï¼ˆæœ¬ç§‘ï¼‰\\\\å­¦æœŸ\\\\2014-2015(2)\\\\å¹³æ—¶æˆç»©ç™»è®°è¡¨.xls");
 		
 		Workbook wb = WorkbookFactory.create(inp);
 		//inp.closed();

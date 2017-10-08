@@ -4,8 +4,8 @@ import java.util.stream.*;
 
 import static java.util.stream.Collectors.partitioningBy;
 /**
- * È¡ÖÊÊı
- * map·ÖÇø £¬È¡Öµtrue
+ * å–è´¨æ•°
+ * mapåˆ†åŒº ï¼Œå–å€¼true
  * 
  * @param args
  */

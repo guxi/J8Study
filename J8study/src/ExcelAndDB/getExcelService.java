@@ -59,7 +59,7 @@ public class getExcelService {
 
 		// set courseInfo
 		String courseInfo = sheet.getRow(1).getCell(0).getStringCellValue();
-		String[] s1 = courseInfo.split("£º");
+		String[] s1 = courseInfo.split("ï¼š");
 		int end = s1[1].indexOf(" ");
 		String Semester = s1[1].substring(0, end);
 		end = s1[2].indexOf(" ");
@@ -80,10 +80,10 @@ System.out.println(courseInfo.toString());
 			Row row = sheet.getRow(rowIndex);
 			if (row != null) {
 				String id = row.getCell(0).getStringCellValue();
-				if (id.equals("Îäºº¿Æ¼¼´óÑ§Ñ§ÉúÆ½Ê±³É¼¨µÇ¼Ç±í")&&id.equals("Æ½Ê±³É¼¨µÇ¼Ç±í")) {
+				if (id.equals("æ­¦æ±‰ç§‘æŠ€å¤§å­¦å­¦ç”Ÿå¹³æ—¶æˆç»©ç™»è®°è¡¨")&&id.equals("å¹³æ—¶æˆç»©ç™»è®°è¡¨")) {
 
 					courseInfo = sheet.getRow(rowIndex + 1).getCell(0).getStringCellValue();
-					s1 = courseInfo.split("£º");
+					s1 = courseInfo.split("ï¼š");
 					className = s1[4];
 
 					rowIndex = rowIndex + 5;
@@ -172,7 +172,7 @@ System.out.println(courseInfo.toString());
 			pstmt.executeUpdate();
 			ResultSet rsKey = pstmt.getGeneratedKeys();
 			rsKey.next();
-			int key = rsKey.getInt(1); // µÃµ½µÚÒ»¸ö¼üÖµ
+			int key = rsKey.getInt(1); // å¾—åˆ°ç¬¬ä¸€ä¸ªé”®å€¼
 			// System.out.println(key);
 
 			rsKey.close();

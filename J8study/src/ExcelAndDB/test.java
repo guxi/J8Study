@@ -8,7 +8,7 @@ public class test {
 
 	public static void main(String[] args) {
 
-		getExcelService ges=new getExcelService("C:\\Course\\���ݿ⼼��\\ѧ��\\2011-2012(1)\\ƽʱ�ɼ��ǼǱ�.xls");
+		getExcelService ges=new getExcelService("C:\\Course\\数据库技术\\学期\\2011-2012(1)\\平时成绩登记表.xls");
 		ges.saveToDB();
 		//int i=ges.saveCourseInfo();
 		//System.out.println(i);

@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.IntSummaryStatistics;
 import java.util.Optional;
 //import java.util.stream.Collectors;
-import static java.util.stream.Collectors.*;//µ¼ÈëËùÓĞ¾²Ì¬·½·¨
+import static java.util.stream.Collectors.*;//å¯¼å…¥æ‰€æœ‰é™æ€æ–¹æ³•
 
 import stream.Dish;
 

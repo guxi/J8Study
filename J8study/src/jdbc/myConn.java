@@ -15,11 +15,11 @@ public class myConn {
 			
 			
 			conn = ds.getConnection();
-			 System.out.println("×î´óÁ¬½ÓÊı"+ds.getMaxPoolSize());// ×î´óÁ¬½ÓÊı
-		        System.out.println("×îĞ¡Á¬½ÓÊı"+ds.getMinPoolSize());// ×îĞ¡Á¬½ÓÊı
-		        System.out.println("ÕıÔÚÊ¹ÓÃÁ¬½ÓÊı"+ds.getNumBusyConnections());// ÕıÔÚÊ¹ÓÃÁ¬½ÓÊı
-		        System.out.println("¿ÕÏĞÁ¬½ÓÊı"+ds.getNumIdleConnections());// ¿ÕÏĞÁ¬½ÓÊı
-		        System.out.println("×ÜÁ¬½ÓÊı"+ds.getNumConnections());// ×ÜÁ¬½ÓÊı
+			 System.out.println("æœ€å¤§è¿æ¥æ•°"+ds.getMaxPoolSize());// æœ€å¤§è¿æ¥æ•°
+		        System.out.println("æœ€å°è¿æ¥æ•°"+ds.getMinPoolSize());// æœ€å°è¿æ¥æ•°
+		        System.out.println("æ­£åœ¨ä½¿ç”¨è¿æ¥æ•°"+ds.getNumBusyConnections());// æ­£åœ¨ä½¿ç”¨è¿æ¥æ•°
+		        System.out.println("ç©ºé—²è¿æ¥æ•°"+ds.getNumIdleConnections());// ç©ºé—²è¿æ¥æ•°
+		        System.out.println("æ€»è¿æ¥æ•°"+ds.getNumConnections());// æ€»è¿æ¥æ•°
 		
 		} catch (SQLException  e) {
 			e.printStackTrace();
